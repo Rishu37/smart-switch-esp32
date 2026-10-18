@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 800" font-family="Arial, Helvetica, sans-serif">
+<rect width="1040" height="800" fill="#ffffff"/>
+<text x="520.0" y="34" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">Diagram B: mains wiring (4-relay build, relays switch LIVE only)</text>
+<rect x="20" y="50" width="1000" height="36" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
+<text x="520.0" y="74" font-size="14" text-anchor="middle" fill="#a93226" font-weight="bold">DANGER: 220-240 V AC. Power OFF at the breaker before wiring. Fuse, closed enclosure and an inspection are required.</text>
+<rect x="40" y="110" width="130" height="100" rx="8" fill="#fff" stroke="#444" stroke-width="2"/>
+<text x="105" y="135" font-size="15" text-anchor="middle" fill="#222" font-weight="bold">Mains inlet</text>
+<text x="105" y="153" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(cord with earth)</text>
+<circle cx="170" cy="165" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="158" y="169" font-size="12" text-anchor="end" fill="#c0392b" font-weight="bold">L</text>
+<circle cx="170" cy="185" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="158" y="189" font-size="12" text-anchor="end" fill="#2471a3" font-weight="bold">N</text>
+<circle cx="170" cy="205" r="5" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+<text x="158" y="209" font-size="12" text-anchor="end" fill="#27ae60" font-weight="bold">PE</text>
+<polyline points="170,165 200,165 200,130 390,130 390,130 390,652" fill="none" stroke="#c0392b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="255" y="118" width="70" height="24" rx="4" fill="#fff" stroke="#444" stroke-width="2"/>
+<text x="290" y="135" font-size="13" text-anchor="middle" fill="#222" font-weight="bold">FUSE</text>
+<polyline points="170,185 305,185 305,686" fill="none" stroke="#2471a3" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="170,205 240,205 240,205 240,706" fill="none" stroke="#27ae60" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="400" y="292" font-size="12" text-anchor="start" fill="#c0392b" font-weight="bold">Live</text>
+<text x="297" y="292" font-size="12" text-anchor="end" fill="#2471a3" font-weight="bold">Neutral</text>
+<text x="232" y="292" font-size="12" text-anchor="end" fill="#27ae60" font-weight="bold">Earth</text>
+<line x1="390" y1="245" x2="373" y2="245" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="305" y1="245" x2="322" y2="245" stroke="#2471a3" stroke-width="3" stroke-linecap="round"/>
+<rect x="322" y="234" width="51" height="22" rx="4" fill="#fff" stroke="#444" stroke-width="2"/>
+<text x="347.5" y="250" font-size="11" text-anchor="middle" fill="#222" font-weight="bold">MOV</text>
+<circle cx="390" cy="245" r="5" fill="#c0392b"/>
+<circle cx="305" cy="245" r="5" fill="#2471a3"/>
+<text x="400" y="249" font-size="11" text-anchor="start" fill="#555" font-weight="normal">surge protection</text>
+<rect x="480" y="100" width="230" height="110" rx="8" fill="#f4f9ff" stroke="#2471a3" stroke-width="2"/>
+<text x="595" y="128" font-size="15" text-anchor="middle" fill="#1b4f72" font-weight="bold">Isolated AC-DC module</text>
+<text x="595" y="148" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">mains in  →  5 V DC out</text>
+<circle cx="480" cy="170" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="494" y="174" font-size="12" text-anchor="start" fill="#222" font-weight="normal">AC L</text>
+<circle cx="480" cy="195" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="494" y="199" font-size="12" text-anchor="start" fill="#222" font-weight="normal">AC N</text>
+<polyline points="390,170 480,170" fill="none" stroke="#c0392b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="390" cy="170" r="5" fill="#c0392b"/>
+<polyline points="305,195 480,195" fill="none" stroke="#2471a3" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="305" cy="195" r="5" fill="#2471a3"/>
+<circle cx="710" cy="170" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="696" y="174" font-size="12" text-anchor="end" fill="#222" font-weight="normal">+5 V</text>
+<circle cx="710" cy="195" r="5" fill="#fff" stroke="#222" stroke-width="2"/>
+<text x="696" y="199" font-size="12" text-anchor="end" fill="#222" font-weight="normal">GND</text>
+<line x1="710" y1="170" x2="780" y2="170" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="710" y1="195" x2="780" y2="195" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+<text x="790" y="168" font-size="12" text-anchor="start" fill="#555" font-weight="normal">to ESP32 VIN and relay VCC</text>
+<text x="790" y="190" font-size="12" text-anchor="start" fill="#555" font-weight="normal">(see Diagram A)</text>
+<rect x="520" y="294" width="150" height="52" rx="6" fill="#fff8f0" stroke="#d35400" stroke-width="2"/>
+<text x="595" y="314" font-size="14" text-anchor="middle" fill="#a04000" font-weight="bold">Relay 1</text>
+<text x="595" y="332" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">IN1 ← GPIO 16</text>
+<text x="524" y="288" font-size="11" text-anchor="start" fill="#a04000" font-weight="bold">COM</text>
+<text x="666" y="288" font-size="11" text-anchor="end" fill="#a04000" font-weight="bold">NO</text>
+<text x="595" y="288" font-size="11" text-anchor="middle" fill="#888" font-weight="normal">NC unused</text>
+<circle cx="520" cy="320" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<circle cx="670" cy="320" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<line x1="390" y1="320" x2="520" y2="320" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="390" cy="320" r="5" fill="#c0392b"/>
+<line x1="670" y1="320" x2="790" y2="320" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<rect x="790" y="294" width="220" height="92" rx="8" fill="#f9f9f9" stroke="#444" stroke-width="2"/>
+<text x="900" y="316" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Appliance 1</text>
+<text x="900" y="334" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(Switch 1)</text>
+<circle cx="790" cy="320" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="804" y="324" font-size="12" text-anchor="start" fill="#c0392b" font-weight="bold">L</text>
+<line x1="305" y1="354" x2="790" y2="354" stroke="#2471a3" stroke-width="4" stroke-linecap="round"/>
+<circle cx="305" cy="354" r="5" fill="#2471a3"/>
+<circle cx="790" cy="354" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="804" y="358" font-size="12" text-anchor="start" fill="#2471a3" font-weight="bold">N</text>
+<line x1="240" y1="374" x2="790" y2="374" stroke="#27ae60" stroke-width="4" stroke-linecap="round"/>
+<circle cx="240" cy="374" r="5" fill="#27ae60"/>
+<circle cx="790" cy="374" r="5" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+<text x="804" y="378" font-size="12" text-anchor="start" fill="#27ae60" font-weight="bold">PE</text>
+<rect x="520" y="404" width="150" height="52" rx="6" fill="#fff8f0" stroke="#d35400" stroke-width="2"/>
+<text x="595" y="424" font-size="14" text-anchor="middle" fill="#a04000" font-weight="bold">Relay 2</text>
+<text x="595" y="442" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">IN2 ← GPIO 17</text>
+<text x="524" y="398" font-size="11" text-anchor="start" fill="#a04000" font-weight="bold">COM</text>
+<text x="666" y="398" font-size="11" text-anchor="end" fill="#a04000" font-weight="bold">NO</text>
+<text x="595" y="398" font-size="11" text-anchor="middle" fill="#888" font-weight="normal">NC unused</text>
+<circle cx="520" cy="430" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<circle cx="670" cy="430" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<line x1="390" y1="430" x2="520" y2="430" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="390" cy="430" r="5" fill="#c0392b"/>
+<line x1="670" y1="430" x2="790" y2="430" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<rect x="790" y="404" width="220" height="92" rx="8" fill="#f9f9f9" stroke="#444" stroke-width="2"/>
+<text x="900" y="426" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Appliance 2</text>
+<text x="900" y="444" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(Switch 2)</text>
+<circle cx="790" cy="430" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="804" y="434" font-size="12" text-anchor="start" fill="#c0392b" font-weight="bold">L</text>
+<line x1="305" y1="464" x2="790" y2="464" stroke="#2471a3" stroke-width="4" stroke-linecap="round"/>
+<circle cx="305" cy="464" r="5" fill="#2471a3"/>
+<circle cx="790" cy="464" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="804" y="468" font-size="12" text-anchor="start" fill="#2471a3" font-weight="bold">N</text>
+<line x1="240" y1="484" x2="790" y2="484" stroke="#27ae60" stroke-width="4" stroke-linecap="round"/>
+<circle cx="240" cy="484" r="5" fill="#27ae60"/>
+<circle cx="790" cy="484" r="5" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+<text x="804" y="488" font-size="12" text-anchor="start" fill="#27ae60" font-weight="bold">PE</text>
+<rect x="520" y="514" width="150" height="52" rx="6" fill="#fff8f0" stroke="#d35400" stroke-width="2"/>
+<text x="595" y="534" font-size="14" text-anchor="middle" fill="#a04000" font-weight="bold">Relay 3</text>
+<text x="595" y="552" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">IN3 ← GPIO 18</text>
+<text x="524" y="508" font-size="11" text-anchor="start" fill="#a04000" font-weight="bold">COM</text>
+<text x="666" y="508" font-size="11" text-anchor="end" fill="#a04000" font-weight="bold">NO</text>
+<text x="595" y="508" font-size="11" text-anchor="middle" fill="#888" font-weight="normal">NC unused</text>
+<circle cx="520" cy="540" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<circle cx="670" cy="540" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<line x1="390" y1="540" x2="520" y2="540" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="390" cy="540" r="5" fill="#c0392b"/>
+<line x1="670" y1="540" x2="790" y2="540" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<rect x="790" y="514" width="220" height="92" rx="8" fill="#f9f9f9" stroke="#444" stroke-width="2"/>
+<text x="900" y="536" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Appliance 3</text>
+<text x="900" y="554" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(Fan)</text>
+<circle cx="790" cy="540" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="804" y="544" font-size="12" text-anchor="start" fill="#c0392b" font-weight="bold">L</text>
+<line x1="305" y1="574" x2="790" y2="574" stroke="#2471a3" stroke-width="4" stroke-linecap="round"/>
+<circle cx="305" cy="574" r="5" fill="#2471a3"/>
+<circle cx="790" cy="574" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="804" y="578" font-size="12" text-anchor="start" fill="#2471a3" font-weight="bold">N</text>
+<line x1="240" y1="594" x2="790" y2="594" stroke="#27ae60" stroke-width="4" stroke-linecap="round"/>
+<circle cx="240" cy="594" r="5" fill="#27ae60"/>
+<circle cx="790" cy="594" r="5" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+<text x="804" y="598" font-size="12" text-anchor="start" fill="#27ae60" font-weight="bold">PE</text>
+<rect x="520" y="624" width="150" height="52" rx="6" fill="#fff8f0" stroke="#d35400" stroke-width="2"/>
+<text x="595" y="644" font-size="14" text-anchor="middle" fill="#a04000" font-weight="bold">Relay 4</text>
+<text x="595" y="662" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">IN4 ← GPIO 21</text>
+<text x="524" y="618" font-size="11" text-anchor="start" fill="#a04000" font-weight="bold">COM</text>
+<text x="666" y="618" font-size="11" text-anchor="end" fill="#a04000" font-weight="bold">NO</text>
+<text x="595" y="618" font-size="11" text-anchor="middle" fill="#888" font-weight="normal">NC unused</text>
+<circle cx="520" cy="650" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<circle cx="670" cy="650" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<line x1="390" y1="650" x2="520" y2="650" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<circle cx="390" cy="650" r="5" fill="#c0392b"/>
+<line x1="670" y1="650" x2="790" y2="650" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<rect x="790" y="624" width="220" height="92" rx="8" fill="#f9f9f9" stroke="#444" stroke-width="2"/>
+<text x="900" y="646" font-size="14" text-anchor="middle" fill="#222" font-weight="bold">Appliance 4</text>
+<text x="900" y="664" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(Light)</text>
+<circle cx="790" cy="650" r="5" fill="#fff" stroke="#c0392b" stroke-width="2"/>
+<text x="804" y="654" font-size="12" text-anchor="start" fill="#c0392b" font-weight="bold">L</text>
+<line x1="305" y1="684" x2="790" y2="684" stroke="#2471a3" stroke-width="4" stroke-linecap="round"/>
+<circle cx="305" cy="684" r="5" fill="#2471a3"/>
+<circle cx="790" cy="684" r="5" fill="#fff" stroke="#2471a3" stroke-width="2"/>
+<text x="804" y="688" font-size="12" text-anchor="start" fill="#2471a3" font-weight="bold">N</text>
+<line x1="240" y1="704" x2="790" y2="704" stroke="#27ae60" stroke-width="4" stroke-linecap="round"/>
+<circle cx="240" cy="704" r="5" fill="#27ae60"/>
+<circle cx="790" cy="704" r="5" fill="#fff" stroke="#27ae60" stroke-width="2"/>
+<text x="804" y="708" font-size="12" text-anchor="start" fill="#27ae60" font-weight="bold">PE</text>
+<line x1="60" y1="740" x2="100" y2="740" stroke="#c0392b" stroke-width="4" stroke-linecap="round"/>
+<text x="108" y="745" font-size="13" text-anchor="start" fill="#222" font-weight="normal">Live (switched by the relay)</text>
+<line x1="330" y1="740" x2="370" y2="740" stroke="#2471a3" stroke-width="4" stroke-linecap="round"/>
+<text x="378" y="745" font-size="13" text-anchor="start" fill="#222" font-weight="normal">Neutral (straight through)</text>
+<line x1="600" y1="740" x2="640" y2="740" stroke="#27ae60" stroke-width="4" stroke-linecap="round"/>
+<text x="648" y="745" font-size="13" text-anchor="start" fill="#222" font-weight="normal">Earth (straight through)</text>
+<text x="60" y="766" font-size="12" text-anchor="start" fill="#555" font-weight="normal">Use COM and NO. Join COM terminals with short mains-rated links in a terminal block. Never switch Neutral or Earth.</text>
+</svg>

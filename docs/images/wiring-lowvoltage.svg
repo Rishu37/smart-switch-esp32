@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Arial, Helvetica, sans-serif">
+<rect width="1000" height="700" fill="#ffffff"/>
+<text x="500.0" y="34" font-size="20" text-anchor="middle" fill="#222" font-weight="bold">Diagram A: low-voltage wiring (4-relay build, bench test, no mains)</text>
+<rect x="190" y="80" width="210" height="420" rx="12" fill="#f4f9ff" stroke="#2471a3" stroke-width="3"/>
+<text x="295" y="108" font-size="17" text-anchor="middle" fill="#1b4f72" font-weight="bold">ESP32 DevKit</text>
+<text x="295" y="128" font-size="13" text-anchor="middle" fill="#555" font-weight="normal">(ESP32-WROOM-32)</text>
+<rect x="270" y="64" width="50" height="18" rx="3" fill="#d5dbdb" stroke="#7f8c8d" stroke-width="1.5"/>
+<text x="295" y="77" font-size="11" text-anchor="middle" fill="#333" font-weight="normal">USB</text>
+<rect x="600" y="80" width="260" height="420" rx="12" fill="#fff8f0" stroke="#d35400" stroke-width="3"/>
+<text x="730" y="108" font-size="17" text-anchor="middle" fill="#a04000" font-weight="bold">4-channel relay board</text>
+<text x="730" y="128" font-size="13" text-anchor="middle" fill="#555" font-weight="normal">(5 V coils, opto-isolated)</text>
+<line x1="400" y1="180" x2="600" y2="180" stroke="#1f77b4" stroke-width="4" stroke-linecap="round"/>
+<text x="500" y="171" font-size="13" text-anchor="middle" fill="#1f77b4" font-weight="bold">GPIO 16 → IN1</text>
+<text x="386" y="185" font-size="14" text-anchor="end" fill="#222" font-weight="normal">GPIO 16</text>
+<text x="614" y="185" font-size="14" text-anchor="start" fill="#222" font-weight="normal">IN1</text>
+<circle cx="400" cy="180" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="180" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<line x1="400" y1="225" x2="600" y2="225" stroke="#2ca02c" stroke-width="4" stroke-linecap="round"/>
+<text x="500" y="216" font-size="13" text-anchor="middle" fill="#2ca02c" font-weight="bold">GPIO 17 → IN2</text>
+<text x="386" y="230" font-size="14" text-anchor="end" fill="#222" font-weight="normal">GPIO 17</text>
+<text x="614" y="230" font-size="14" text-anchor="start" fill="#222" font-weight="normal">IN2</text>
+<circle cx="400" cy="225" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="225" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<line x1="400" y1="270" x2="600" y2="270" stroke="#8e44ad" stroke-width="4" stroke-linecap="round"/>
+<text x="500" y="261" font-size="13" text-anchor="middle" fill="#8e44ad" font-weight="bold">GPIO 18 → IN3</text>
+<text x="386" y="275" font-size="14" text-anchor="end" fill="#222" font-weight="normal">GPIO 18</text>
+<text x="614" y="275" font-size="14" text-anchor="start" fill="#222" font-weight="normal">IN3</text>
+<circle cx="400" cy="270" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="270" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<line x1="400" y1="315" x2="600" y2="315" stroke="#e67e22" stroke-width="4" stroke-linecap="round"/>
+<text x="500" y="306" font-size="13" text-anchor="middle" fill="#e67e22" font-weight="bold">GPIO 21 → IN4</text>
+<text x="386" y="320" font-size="14" text-anchor="end" fill="#222" font-weight="normal">GPIO 21</text>
+<text x="614" y="320" font-size="14" text-anchor="start" fill="#222" font-weight="normal">IN4</text>
+<circle cx="400" cy="315" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="315" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<text x="386" y="380" font-size="14" text-anchor="end" fill="#222" font-weight="normal">VIN (5 V)</text>
+<text x="614" y="380" font-size="14" text-anchor="start" fill="#222" font-weight="normal">VCC</text>
+<text x="386" y="425" font-size="14" text-anchor="end" fill="#222" font-weight="normal">GND</text>
+<text x="614" y="425" font-size="14" text-anchor="start" fill="#222" font-weight="normal">GND</text>
+<line x1="400" y1="375" x2="600" y2="375" stroke="#c0392b" stroke-width="5" stroke-linecap="round"/>
+<line x1="400" y1="420" x2="600" y2="420" stroke="#222" stroke-width="5" stroke-linecap="round"/>
+<text x="500" y="366" font-size="13" text-anchor="middle" fill="#c0392b" font-weight="bold">+5 V</text>
+<text x="500" y="411" font-size="13" text-anchor="middle" fill="#222" font-weight="bold">GND</text>
+<circle cx="400" cy="375" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="375" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="400" cy="420" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<circle cx="600" cy="420" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<rect x="410" y="540" width="180" height="64" rx="8" fill="#fdf2f0" stroke="#c0392b" stroke-width="2"/>
+<text x="500" y="566" font-size="15" text-anchor="middle" fill="#c0392b" font-weight="bold">5 V supply</text>
+<text x="500" y="586" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">USB 5 V, 2 A for the bench</text>
+<polyline points="450,540 450,375" fill="none" stroke="#c0392b" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="450" cy="375" r="6" fill="#c0392b"/>
+<polyline points="550,540 550,420" fill="none" stroke="#222" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="550" cy="420" r="6" fill="#222"/>
+<text x="440" y="532" font-size="18" text-anchor="end" fill="#c0392b" font-weight="bold">+</text>
+<text x="560" y="532" font-size="18" text-anchor="start" fill="#222" font-weight="bold">−</text>
+<circle cx="190" cy="270" r="6" fill="#fff" stroke="#444" stroke-width="2"/>
+<text x="204" y="275" font-size="13" text-anchor="start" fill="#222" font-weight="normal">GPIO 0 (BOOT)</text>
+<polyline points="190,270 110,270 110,340" fill="none" stroke="#555" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="110" y1="340" x2="110" y2="352" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<circle cx="110" cy="352" r="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<line x1="96" y1="372" x2="124" y2="360" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<circle cx="110" cy="380" r="4" fill="#fff" stroke="#555" stroke-width="2"/>
+<line x1="110" y1="380" x2="110" y2="410" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="96" y1="410" x2="124" y2="410" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="101" y1="418" x2="119" y2="418" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<line x1="106" y1="426" x2="114" y2="426" stroke="#555" stroke-width="3" stroke-linecap="round"/>
+<text x="110" y="190" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">Optional</text>
+<text x="110" y="206" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">external</text>
+<text x="110" y="222" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">reset button</text>
+<text x="110" y="238" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(on the box)</text>
+<rect x="700" y="190" width="150" height="95" rx="6" fill="#ffffff" stroke="#d35400" stroke-width="1.5"/>
+<text x="775" y="212" font-size="13" text-anchor="middle" fill="#a04000" font-weight="bold">Screw terminals</text>
+<text x="775" y="232" font-size="13" text-anchor="middle" fill="#444" font-weight="normal">COM / NO / NC</text>
+<text x="775" y="252" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">go to the mains side</text>
+<text x="775" y="270" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">(see Diagram B)</text>
+<text x="730" y="470" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">JD-VCC jumper: leave it in place</text>
+<text x="730" y="486" font-size="12" text-anchor="middle" fill="#555" font-weight="normal">for a bench test</text>
+<text x="60" y="640" font-size="13" text-anchor="start" fill="#444" font-weight="normal">• All grounds are joined: ESP32 GND, relay board GND and the supply minus.</text>
+<text x="60" y="658" font-size="13" text-anchor="start" fill="#444" font-weight="normal">• No mains is connected in this diagram. Test that every relay clicks from the app first.</text>
+<text x="60" y="676" font-size="13" text-anchor="start" fill="#444" font-weight="normal">• Pins for the 2- and 8-relay builds are in docs/03-wiring.md. Active-low board? Set RELAY_ON_LEVEL to 0.</text>
+</svg>
